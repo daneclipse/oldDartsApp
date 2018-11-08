@@ -1,0 +1,124 @@
+/* FORM FOR WHEN QUICK GAME WAS SELECTED */
+.form
+{
+	height: 150px;
+	margin: 50px auto;
+	float: none;
+}
+
+.setupButton
+{
+	padding: 10px 20px;
+	font-size: 22px;
+	color: #fff;
+}
+
+.setupButton:hover
+{
+	background-color: #719952;
+	cursor: pointer;
+}
+
+/* AREA WHERE THE GAME IS SETUP */
+#gameSetup
+{
+	width: 80%;
+	margin: 0 auto;
+	height: 300px;
+}
+
+.gameSetupArea
+{
+	height: 100%;
+	width: 100%;
+}
+
+.innerSetupArea
+{
+	width: 33.3%;
+	float: left;
+	height: 100%;
+}
+
+.innerSetupArea h2
+{
+	height: 10%;
+}
+
+.option
+{
+	height: 30%;
+	background-color: #fff;
+	border: 5px solid #f5f7fa;
+	border-radius: 25px;
+	opacity: 0.2;
+}
+
+.setupHeader 
+{
+	opacity: 0.2;
+}
+
+.opponent
+{
+	width: 60%;
+	margin: 20px auto;
+}
+
+/* 100 DARTS AT SETUP */
+#hundredSetup .innerSetupArea
+{
+	width: 66.6%;
+	margin: 0 auto;
+	float: none;
+}
+
+.hundredOption
+{
+	height: 22.5%;
+	width: 50%;
+	float: left;
+}
+
+.hundredOption:last-of-type
+{
+	width: 100%;
+}
+
+/* CRICKET GAME SETUP */
+#cricketSetup
+{
+	width: 66.6%;
+	margin: 0 auto;
+	float: none;
+}
+
+#cricketSetup .innerSetupArea
+{
+	height: 200px;
+	width: 50%;
+	float: left;
+}
+
+.crickOppOption, .crickInnOption
+{
+	height: 45%;
+	width: 100%;
+}
+
+/* ROUND THE WORLD SETUP */
+#worldSetup .innerSetupArea
+{
+	height: 100%;
+	width: 66.6%;
+	margin: 0 auto;
+	float: none;
+}
+
+/* TIC TAC TOE SETUP */
+#ticSetup .innerSetupArea
+{
+	height: 100%;
+	width: 50%;
+	float: left;
+}

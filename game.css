@@ -1,0 +1,87 @@
+.quitGame
+{
+	float: right;
+	font-size: 20px;
+}
+
+.quitGame:hover
+{
+	cursor: pointer;
+}
+
+.page 
+{
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+}
+
+/* USED TO CHOOSE THE ORDER OF THROW */
+.playerOrder
+{
+	width: 300px;
+	margin: 100px auto;
+	text-align: center;
+	font-size: 30px;
+}
+
+.playersToOrder
+{
+	height: 300px;
+	margin-top: 30px;
+}
+
+.playersToOrder li
+{
+	height: 70px;
+	line-height: 70px;
+	text-align: left;
+	margin: 10px 0;
+	background-color: #fff;
+	border: 2px solid #f5f7fa;
+	border-radius: 5px;
+	list-style-type: none;
+	padding-left: 10px;
+}
+
+.playersToOrder li button
+{
+	height: 100%;
+	border: 2px solid #fff;
+	padding: 0 20px;
+}
+
+.right
+{
+	float: right;
+	height: 100%;
+	margin-top: -2px;
+}
+
+/* PAGE SETUP FOR EVERY GAME */
+
+.board
+{
+	width: 60%;
+	height: 90%;
+	float: right;
+}
+
+.game
+{
+	width: 40%;
+	height: 100%;
+	float: left;
+}
+
+.gameButtons
+{
+	height: auto;
+	clear: both;
+	float: right;
+}
+
+.gameButtons button
+{
+	margin-top: -50px;
+}

@@ -1,0 +1,309 @@
+* {
+	font-family: 'Helvetica';
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: #333;
+}
+
+html, body {
+	height: 100%;
+	max-height: 1200px;
+	background-color: #f5f7fa;
+	max-width: 2000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+.hidden {
+	visibility: hidden;
+}
+
+/* COLOURS */
+.green {
+	fill: #91c46b;
+}
+
+.red {
+	fill: #d9534f;
+}
+
+.white {
+	fill: #eee;
+}
+
+.greenButton {
+	background-color: #91c46b;
+}
+
+.redButton {
+	background-color: #d9534f;
+}
+
+.scale .scalable {
+	transform: scale(1.1);
+}
+
+.scale .dontScale {
+	transform: scale(0.91);
+}
+
+.scale .scalable .scaleTwo {
+	transform: scale(1.3);
+}
+
+/* ERROR MESSAGE */
+
+.alertMessage {
+	width: 600px;
+	height: 80px;
+	margin: 0 auto;
+	margin-top: 50px;
+	font-size: 50px;
+	line-height: 80px;
+	text-align: center;
+	color: #fff;
+}
+
+/* NAV BAR */
+.navBar {
+	width: 100%;
+	min-height: 40px;
+	height: 10%;
+	max-height: 80px;
+	background-color: #333;
+}
+
+.navBar a, .navBar h1 {
+	width: 33.3%;
+	height: 100%;
+	float: left;
+	line-height: 80px;
+	text-align: center;
+	font-size: 2vw;
+	color: #fff;
+	text-decoration: none;
+}
+
+.navBar h1 {
+	background-color: #f5f7fa;
+	color: #333;
+	font-size: 40px;
+	text-align: left;
+	padding-left: 5%; 
+}
+
+.navBar a:hover {
+	background-color: black;
+}
+
+.logOutButton a{
+	color: #d9534f;
+}
+
+/* MAIN PAGE CSS */
+.page {
+	height: 93%;
+	max-height: 1120px;
+	width: 100%;
+	padding-top: 50px;
+}
+
+.page h1 {
+	text-align: center;
+}
+
+/* SECTIONS TO SHOW DIFFERENT GAME TYPES */
+.gameOptions {
+	width: 100%;
+	height: 200px;
+}
+
+.gameOption {
+	width: 20%;
+	height: 100%;
+	float: left;
+	background-color: #fff;
+	border: 5px solid #f5f7fa;
+	border-radius: 20px;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.gameOption h2 {
+	height: 30px;
+	font-size: 24px;
+}
+
+.gameOption h2:hover {
+	cursor: pointer;
+}
+
+.gameInfo {
+	height: 120px;
+	padding: 10px 20px;
+	font-size: 15px;
+}
+
+.showGameInfo:hover {
+	cursor: pointer;
+}
+
+/* VIEW STATS PAGE */
+
+#viewStats {
+	margin-top: 50px;
+	text-align: center;
+}
+
+.viewStatsButtons {
+	padding: 50px;
+	text-align: center;
+}
+
+.viewStatsButton {
+	border: 2px solid #333;
+	color: #333;
+	text-decoration: none;
+	padding: 10px 20px;
+	font-size: 20px;
+	margin: 0 20px;
+	min-height: 50px;
+}
+
+.viewStatsButton:hover {
+	background-color: #333;
+	color: #f5f7fa;
+}
+
+.pagination 
+{
+	padding: 10px 20px;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.pagination:hover {
+	background-color: #ccd1d9;
+}
+
+.activePage, .activePage:hover {
+	background-color: #333;
+	color: #fff;
+}
+
+/* ALL FORM CSS - USED FOR REGISTRATION, LOGGING IN ETC */
+
+.form {
+	text-align: center;
+	background-color: #fff;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	width: 80%;
+	max-width: 800px;
+	margin: 20px auto;
+	padding: 20px 0;
+}
+
+input {
+	width: 80%;
+	max-width: 600px;
+	height: 50px;
+	margin: 10px auto;
+	border: none;
+	border-bottom: 2px solid #333;
+	font-size: 20px;
+}
+
+input:first-child {
+	margin-top: 50px;
+}
+
+.submitForm {
+	display: block;
+	width: 300px;
+	min-height: 50px;
+	font-size: 20px;
+	border: 2px solid #333;
+	margin: 0 auto;
+	margin-top: 50px;
+	text-align: center;
+}
+
+.submitForm:hover {
+	cursor: pointer;
+	background-color: #333;
+	color: #fff;
+}
+
+select {
+	background-color: #333;
+	color: #fff;
+	height: 50px;
+	min-width: 200px;
+	font-size: 18px;
+	margin: 20px auto;
+}
+
+select:hover {
+	cursor: pointer;
+}
+
+.logIn {
+	font-size: 20px;
+	margin-top: 50px;
+	padding: 10px 0;
+	width: 300px;
+}
+
+.logIn a {
+	text-decoration: none;
+}
+
+.logIn:hover {
+	cursor: pointer;
+	background-color: #333;
+}
+
+.logIn:hover a {
+	color: #fff;
+}
+
+/* STATS PAGE */
+
+.statButton {
+	margin: 20px;
+	font-size: 20px;
+	padding: 10px;
+}
+
+.statButton:hover {
+	background-color: #333;
+	color: #fff;
+}
+
+/* TABLE - USED TO DISPLAY STATS */
+
+table {
+	margin: 40px auto;
+	border-collapse: collapse;
+}
+
+td, th {
+	padding: 8px;
+}
+
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+tr:hover {
+	background-color: #ddd;
+}
+
+th {
+	text-align: left;
+}

@@ -1,0 +1,77 @@
+.scoreboard
+{
+	width: 100%;
+	height: 300px;
+}
+
+.inner_scoreboard
+{
+	width: 33.3%;
+	height: 100%;
+	float: left;
+	font-size: 24px;
+}
+
+.third_height
+{
+	height: 33.3%;
+	width: 100%;
+	
+}
+
+.enterScore
+{
+	height: 50%;
+	width: 50%;
+	margin: 10px auto;
+	line-height: 50px;
+	background-color: #fff;
+}
+
+.dartsLeft
+{
+	padding-top: 75px;
+}
+
+.numDartsLeft
+{
+	width: 80%;
+	height: 100px;
+	background-color: #fff;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	font-size: 60px;
+	font-weight: bold;
+	line-height: 100px;
+}
+
+.playerBox
+{
+	width: 100%;
+	height: 150px;
+	margin: 50px 0;
+	background-color: #333;
+	color: #fff;
+}
+
+.nameSection
+{
+	width: 100%;
+	height: 50px;
+	background-color: #a4a6a8;
+	font-size: 24px;
+	text-align: left;
+	line-height: 50px;
+	padding-left: 20px;
+	text-transform: uppercase;
+}
+
+.innerSection
+{
+	width: 33.3%;
+	height: 100px;
+	float: left;
+	line-height: 90px;
+	font-size: 40px;
+	border: 5px solid #fff;
+}

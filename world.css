@@ -1,0 +1,106 @@
+.game h3
+{
+	margin-bottom: 20px;
+}
+
+/* SECTION TO SAY WHAT YOU ARE AIMING AT */
+.currentTarget
+{
+	width: 40%;
+	height: 50px;
+	line-height: 50px;
+	font-size: 30px;
+	text-align: left;
+	margin: 0 auto;
+}
+
+#aimAt
+{
+	float: right;
+	height: 100%;
+	margin: 0 20px;
+	padding: 0 30px;
+	background-color: #fff;
+}
+
+/* SCOREBOARD TO SHOW WHAT HAS BEEN HIT FOR EACH NUMBER */
+
+.scoreboard
+{
+	width: 80%;
+	height: 700px;
+	margin: 20px auto;
+}
+
+.quarter
+{
+	width: 25%;
+	height: 100%;
+	float: left;
+	font-size: 30px;
+	line-height: 70px;
+}
+
+.inner_half
+{
+	height: 10%;
+}
+
+.regularText
+{
+	height: 100%;
+}
+
+.numbersNeeded
+{
+	border-right: 2px solid black;
+}
+
+.numbersHit
+{
+	border-right: 20px solid #f7f5fa;
+}
+
+/* BOTTOM SCOREBOARD TO SHOW CURRENT GO */
+.lower_scoreboard
+{
+	width: 100%;
+	height: 150px;
+	margin-bottom: 50px;
+	background-color: #333;
+	color: #fff;
+}
+
+/*.scoreboardSection:nth-of-type(1)
+{
+	width: 100%;
+	height: 50px;
+	background-color: #a4a6a8;
+	font-size: 24px;
+	text-align: left;
+	line-height: 50px;
+	padding-left: 20px;
+	text-transform: uppercase;
+}*/
+
+.worldInner_scoreboard
+{
+	width: 20%;
+	height: 100%;
+	padding-top: 10px;
+	float: left;
+	border: 2px solid #f7f5fa;
+
+}
+
+.worldScore
+{
+	margin-top: 20px;
+	height: 100%;
+	font-size: 40px;
+	line-height: 80px;
+	border-top: 2px solid #f7f5fa;
+}
+
+
+

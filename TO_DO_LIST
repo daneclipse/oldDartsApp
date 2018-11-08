@@ -1,0 +1,60 @@
+----- THINGS TO DO ------
+
+--- SORT OUT CSS & STYLE ---
+- TABLE STYLING
+- MAKE SURE EVERYTHING ALWAYS FITS ON THE PAGE - NO SCROLLING (max-height)
+
+MEDIA QUERIES HAVE BEEN SET UP FOR WHEN THE PAGE IS LESS THAN 1000PX
+- MAKE MEDIA QUERIES CSS DRY - NO REPEATING CODE
+
+----- THINGS TO ADD ------
+100, 140 & 180 stats to overall stats
+if opponent is a user]
+(has account) - allow name to be pressed to view their stats?
+create computer to play against - different difficulties
+
+----- THINGS TO CHECK ------
+
+
+----- NEW GAMES -----
+100 darts at a number - 1 point for single, 2 for double, 3 for treble - highest score wins
+round the world - singles, doubles, trebles - count number of darts
+tic tac toe - random things to hit on dartboard, need three in a row for victory - winner with most victories
+cricket - bowler needs 10 bullseyes, batsman needs 41+ to score runs - winner with highest score after other person has been bowled out
+finishing practice - start at 50, if you miss it move onto 51 etc..., if you hit it start again at 50 - keep track of highest checkout got to/ checkouts hit
+halve it - random things to hit on board, if you miss half previous score, if you hit it add to previous score - winner with highest score at the end
+mickey mouse - need to hit three of same number to knock it out, if knocked out can score opponent points - winner is who has hit everything and has the lowest score
+
+--- X01 - COMPLETED
+TRADITIONAL GAME OF DARTS, CHOOSE AN OPPONENT OF SINGLE PLAYER
+CHOOSE TARGET SCORE AND NUMBER OF LEGS TO WIN
+
+--- 100 DARTS AT --- COMPLETED
+CHOOSE A NUMBER YOU WANT TO THROW HUNDRED DARTS AT
+1 POINT FOR EACH SINGLE
+2 POINTS FOR EACH DOUBLE
+3 POINTS FOR EACH TREBLE
+KEEPS TRACK OF POINTS, DARTS MISSED & TOTAL SCORED - 60 FOR T20 ETC...
+HAS STATS FOR EVERY GAME PLAYED WITH TARGET NUMBER SELECTED
+HAS STATS FOR BEST GAME WHICH IS BASED ON THE GAME WITH THE HIGHEST TOTAL SCORED
+
+--- ROUND THE WORLD --- COMPLETED
+SINGLES - 2 VARIATIONS CAN BE PLAYED - CURRENTLY SET UP TO HIT EVERY NUMBER (EXTRA POINTS FOR DOUBLES & TREBLES) - COULD SKIP NUMBERS IF DOUBLES/ TREBLES HIT
+DOUBLES - 2 POINTS IF YOU HIT A DOUBLE, -1 POINT FOR SINGLE, -3 FOR TREBLE
+TREBLES - 3 POINTS IF YOU HIT A TREBLE, -1 POINT FOR SINGLE, -2 FOR DOUBLE
+
+--- TIC TAC TOE --- COMPLETED
+RANDOM NUMBERS SHOWN IN TIC TAC TOE BOARD
+CLICK AREA YOU HIT ON DARTBOARD - IF THAT AREA IS ON THE TIC TAC TOE BOARD - ADD RELEVANT MARKER
+-- TO DO --
+IF GAMES MORE THAN 1 - ADD SOMETHING TO CHANGE THE ORDER OF THROWN - WHO THREW FIRST FIRST GAME, NOW THROWS SECOND ETC (SAME AS X01)
+
+--- CRICKET --- COMPLETED
+HAVE TO PLAY AGAINST A GUEST OR OTHER USER - HAS TO BE 2 PLAYERS
+CAN CHOOSE NUMBER OF INNINGS
+CAN CHOOSE ORDER OF THROW
+BOWLER ALWAYS THROWS FIRST
+BOWLER NEEDS TO HIT 10 WICKETS (OUTERBULL = 1 WICKET, BULLSEYE = 2 WICKETS)
+BATTER NEEDS TO HIT HIGHEST SCORE POSSIBLE (ANY SCORE OVER 41 ARE RUNS SCORED)
+IF BOWLER HITS TREBLE - THAT SCORE GETS ADDED TO BATSMANS SCORE
+IF BATSMAN HIT BULLSEYE - TAKES OWN WICKET
